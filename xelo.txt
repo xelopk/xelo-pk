@@ -1,0 +1,55 @@
+
+Xelo_PK/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── app.js
+├── admin/
+│   └── index.html
+└── images/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xelo PK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Welcome to Xelo PK</h1>
+    <div id="auth">
+        <button onclick="showLogin()">Login</button>
+        <button onclick="showRegister()">Register</button>
+    </div>
+    <div id="ads-section"></div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+}
+function showLogin() {
+    alert('Login form (mock)');
+}
+
+function showRegister() {
+    alert('Register form (mock)');
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Xelo PK</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Admin Panel</h1>
+    <p>Manage ads and users (mock functionality)</p>
+</body>
+</html>
